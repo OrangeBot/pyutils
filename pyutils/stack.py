@@ -83,7 +83,6 @@ def run_bg(target, *args, **kwargs):
     return t
 
 
-
 class Mock(object):
     def __init__(self, prototype=None, dump_path=None, dump_engine='json'):
         type_sc = {
